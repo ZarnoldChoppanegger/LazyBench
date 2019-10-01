@@ -11,7 +11,7 @@ do
     for CORES in 1 2 4 8
     do
         START_TIME=$(date +%s.$N)
-        { ./"$PROGRAM" $VAL $CORES & } &> /dev/null
+        { "$PROGRAM" $VAL $CORES & } &> /dev/null
         PID=$!
         wait $PID
         END_TIME=$(date +%s.%N)
