@@ -12,5 +12,5 @@ Simple scripts to bench multicore programs and plot the results
 ```
 
 ```bash
-./plot_file data.dat
+./plot_file data.dat y_range_min y_range_max
 ```
