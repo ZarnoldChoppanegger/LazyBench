@@ -1,2 +1,16 @@
 # LazyBench
 Simple scripts to bench multicore programs and plot the results
+
+# Dependencies
+* linux tool `time`
+* `gnuplot`
+
+# Usage
+
+```bash
+./bench.sh program start_value end_value step > data.dat
+```
+
+```bash
+./plot_file data.dat
+```
